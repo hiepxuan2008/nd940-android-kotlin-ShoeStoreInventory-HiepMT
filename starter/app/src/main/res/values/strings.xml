@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">ShoeStore</string>
+
+    <string name="label_email">Email</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="label_no_account_yet">Don\'t have an account?</string>
+    <string name="btn_sign_up">Sign up</string>
+
+    <string name="label_welcome">Welcome!</string>
+    <string name="label_welcome_message">Welcome to our Shoe Inventory App!</string>
+    <string name="btn_welcome_next">Next</string>
+
+    <string name="label_instruction">Instruction!</string>
+    <string name="instructions_step_one">1. Tap the + icon to add a new shoe item to your inventory</string>
+    <string name="instructions_step_two">2. Tap the Save Button to save the shoe to your inventory</string>
+    <string name="btn_instruction_next">Let\'s shop</string>
+
+    <string name="menu_item_logout">Logout</string>
+
+    <string name="label_shoe_name">Name</string>
+    <string name="label_shoe_company">Company</string>
+    <string name="label_shoe_size">Size</string>
+    <string name="label_shoe_description">Description</string>
+
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+
+    <string name="label_shoe_name_empty">Empty Shoe Name</string>
+    <string name="label_shoe_company_empty">Empty Company</string>
+    <string name="label_shoe_size_empty">Empty Shoe Size</string>
+    <string name="label_shoe_description_empty">Empty Description</string>
+
+    <string name="btn_create_a_new_shoe_desc">Create a new shoe</string>
+
+    <string name="page_title_login">Login</string>
+    <string name="page_title_welcome">Welcome</string>
+    <string name="page_title_instruction">Instruction</string>
+    <string name="page_title_shoe_list">Shoe List</string>
+    <string name="page_title_shoe_detail">Create a new shoe</string>
 </resources>

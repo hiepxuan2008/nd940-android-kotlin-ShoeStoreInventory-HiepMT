@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="shoe_item_label_width">114dp</dimen>
+    <dimen name="create_shoe_item_margin_top">48dp</dimen>
+    <dimen name="create_shoe_item_label_margin">4dp</dimen>
+</resources>

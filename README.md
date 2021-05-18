@@ -1,52 +1,42 @@
-# README Template
+# Shoe Store Inventory App - Udacity nd940
+Course link: https://www.udacity.com/course/android-kotlin-developer-nanodegree--nd940
 
-Below is a template provided for use when building your README file for students.
+This project will consist of five screens. You don't have to create a shoe store, you can use any other item as long as you create the following screens. You will be creating:
 
-# Project Title
+* Login screen: Email and password fields and labels plus create and login buttons
+* Welcome onboarding screen
+* Instructions onboarding screen
+* Shoe Listing screen
+* Shoe Detail screen for adding a new shoe
 
-Project description goes here.
 
-## Getting Started
+### Skills in this project
+* Layout: Constraint Layout & Linear Layout
+* Single activity architecture & multiple fragments
+* Live Data & ViewModel & SharedViewModel (Shared ViewModel between fragments in the same activity)
+* Data Binding
+* App Navigation: Safe Args, Transition animations, Setup ActionBar with nav controlelr
+* Add Menu Item
 
-Instructions for how to get a copy of the project running on your local machine.
 
-### Dependencies
+# Demo screen
+### Login screen
+<img src="demo/1_login_screen.png" width="40%">
 
-```
-Examples here
-```
+### Welcome screen
+<img src="demo/2_welcome_screen.png" width="40%">
 
-### Installation
+### Instruction screen
+<img src="demo/3_instruction_screen.png" width="40%">
 
-Step by step explanation of how to get a dev environment running.
+### Shoe Listing screen
+<img src="demo/4_shoe_listing_screen.png" width="40%">
 
-List out the steps
+### Shoe Detail screen
+<img src="demo/5_shoe_detail_screen.png" width="40%">
 
-```
-Give an example here
-```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
+### Logout Menu Item
+<img src="demo/6_logout_menu_item.png" width="40%">
 
 ## License
+Mai Thanh Hiep & Udacity
