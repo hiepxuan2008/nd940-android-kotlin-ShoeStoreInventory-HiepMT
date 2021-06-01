@@ -10,6 +10,10 @@
             type="com.udacity.shoestore.screens.shoe_detail.ShoeDetailViewModel" />
     </data>
 
+    <!--
+        Use ConstraintLayout to make the layout flat, reduce CPU time
+    -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

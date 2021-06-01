@@ -21,6 +21,9 @@
         app:cardElevation="6dp"
         app:contentPadding="8dp">
 
+        <!--
+            Use ConstraintLayout to make the layout flat, reduce CPU time
+        -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"

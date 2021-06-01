@@ -3,6 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+    <!--
+       Use ConstraintLayout to make the layout flat, reduce CPU time
+   -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:id="@+id/container"
@@ -16,23 +21,23 @@
 
         <TextView
             android:id="@+id/tvPassword"
+            style="@style/PrimaryLabelStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:text="@string/label_password"
-            style="@style/PrimaryLabelStyle"
             app:layout_constraintBottom_toTopOf="@+id/etPassword"
             app:layout_constraintStart_toStartOf="@+id/etPassword" />
 
         <TextView
             android:id="@+id/tvEmail"
+            style="@style/PrimaryLabelStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:text="@string/label_email"
             app:layout_constraintBottom_toTopOf="@+id/etEmail"
-            app:layout_constraintStart_toStartOf="@+id/etEmail"
-            style="@style/PrimaryLabelStyle" />
+            app:layout_constraintStart_toStartOf="@+id/etEmail" />
 
         <EditText
             android:id="@+id/etEmail"
@@ -65,6 +70,7 @@
 
         <Button
             android:id="@+id/btnLogin"
+            style="@style/PrimaryButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -74,8 +80,7 @@
             android:text="@string/btn_sign_in"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etPassword"
-            style="@style/PrimaryButtonStyle" />
+            app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
         <TextView
             android:id="@+id/tvDontHaveAccount"
